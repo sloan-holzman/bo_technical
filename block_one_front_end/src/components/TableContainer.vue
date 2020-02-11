@@ -73,7 +73,6 @@ import moment from "moment";
 import RecursiveDataViewer from "./RecursiveDataViewer";
 import fetchMostRecentBlocks from "../modules/fetch-most-recent-blocks";
 import getActionCount from "../modules/get-action-count";
-import { blocks } from "../../tests/unit/blocks.fixtures.json";
 
 export default {
   name: "TableContainer",
@@ -121,7 +120,9 @@ export default {
   },
   methods: {
     expandRow(row) {
-      const rowIndex = this.expanded.findIndex(expandedRow => expandedRow.id === row.id);
+      const rowIndex = this.expanded.findIndex(
+        expandedRow => expandedRow.id === row.id
+      );
       rowIndex > -1
         ? this.expanded.splice(rowIndex, 1)
         : this.expanded.push(row);
