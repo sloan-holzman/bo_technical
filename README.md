@@ -36,10 +36,10 @@ NOTE: EOSJS and even axios calls to the provided endpoint have been giving me sp
 - "too many requests", which is likely due to my repeated use; and
 - "invalid response body...Unexpected token < in JSON at position 0", which, according to https://developers.eos.io/manuals/eosjs/v21.0/troubleshooting/connectivity indicates a connectivity issue.
 
-As a result, I have created an option to just return test data if you run the backend with the ```npm run local-mock``` option.  You can also use ```npm run local-axios``` to use axios, which seems to be more consistent.  Finally, to use purse eosjs, run ```npm run local-eosjs```.
+As a result, I have created an option to just return test data if you run the backend with the ```npm run local-mock``` option.  You can also use ```npm run local-axios``` to use axios, which seems to be more consistent.  If you wish to use pure eosjs, run ```npm run local-eosjs```.
 
 
-lastly, cd into the front end and get it running
+Lastly, cd into the front end and get it running
 ```
 cd block_one_front_end
 npm run serve

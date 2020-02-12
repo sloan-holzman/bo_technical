@@ -5,6 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "npx jest",
+    "test-mock": "NODE_ENV=LOCAL_MOCK npx jest",
     "start": "node index.js",
     "local-axios": "NODE_ENV=LOCAL_AXIOS nodemon --inspect=8030 index.js",
     "local-eosjs": "NODE_ENV=LOCAL_EOSJS nodemon --inspect=8030 index.js",
