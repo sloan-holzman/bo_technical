@@ -29,6 +29,13 @@ npm run local-eosjs
 ```
 
 ### Runs tests
+
+testing with real api calls
 ```
 npm run test
+```
+
+testing mock api calls
+```
+npm run test-mock
 ```
