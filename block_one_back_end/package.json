@@ -6,12 +6,17 @@
   "scripts": {
     "test": "npx jest",
     "start": "node index.js",
-    "local": "nodemon --inspect=8030 index.js"
+    "local-axios": "NODE_ENV=LOCAL_AXIOS nodemon --inspect=8030 index.js",
+    "local-eosjs": "NODE_ENV=LOCAL_EOSJS nodemon --inspect=8030 index.js",
+    "local-mock": "NODE_ENV=LOCAL_MOCK nodemon --inspect=8030 index.js",
+    "production": "NODE_ENV=PRODUCTION node index.js"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "axios": "^0.19.2",
     "cors": "^2.8.5",
+    "dotenv": "^8.2.0",
     "eosjs": "^20.0.3",
     "express": "^4.17.1",
     "jest": "^25.1.0",

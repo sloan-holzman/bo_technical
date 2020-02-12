@@ -61,13 +61,6 @@
   </div>
 </template>
 
-<!--
-  TODO:
-    - bonus!
-    - sort out mobile (extra credit)
-    - sort out border and scrolling
--->
-
 <script>
 import moment from "moment";
 import RecursiveDataViewer from "./RecursiveDataViewer";
