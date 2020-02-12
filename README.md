@@ -57,12 +57,12 @@ npm run test
 
 for the back-end, testing with real api calls
 ```
-cd block_one_front_end
+cd block_one_back_end
 npm run test
 ```
 
 for the back-end, testing mock api calls
 ```
-cd block_one_front_end
+cd block_one_back_end
 npm run test-mock
 ```
