@@ -49,14 +49,20 @@ Then go to http://localhost:8081/
 
 ### Runs tests
 
-for the back-end
+for the front-end
 ```
 cd block_one_front_end
 npm run test
 ```
 
-for the front-end
+for the back-end, testing with real api calls
 ```
 cd block_one_front_end
 npm run test
+```
+
+for the back-end, testing mock api calls
+```
+cd block_one_front_end
+npm run test-mock
 ```
